@@ -43,10 +43,10 @@ function check(){
         if (turno_contestar== "player1"){
             player1_puntos = player1_puntos +1;
             document.getElementById("player1_puntos").innerHTML=player1_puntos;
-            document.getElementById("player2_puntos").innerHTML=player2_puntos;
         }
         else{
-            player1_puntos = player1_puntos +1;
+            player2_puntos = player2_puntos +1;
+            document.getElementById("player2_puntos").innerHTML=player2_puntos;
         }
     }
 
